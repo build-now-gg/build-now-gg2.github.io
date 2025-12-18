@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - 76 Games</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        body {
+            background: linear-gradient(135deg, #1a2a6c, #b21f1f, #fdbb2d);
+            color: #333;
+            line-height: 1.6;
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: rgba(255, 255, 255, 0.95);
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+            overflow: hidden;
+        }
+        
+        header {
+            background: linear-gradient(to right, #4a00e0, #8e2de2);
+            color: white;
+            padding: 30px 20px;
+            text-align: center;
+        }
+        
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+        }
+        
+        .logo {
+            font-size: 1.2rem;
+            opacity: 0.9;
+        }
+        
+        .content {
+            padding: 30px;
+        }
+        
+        h2 {
+            color: #4a00e0;
+            margin: 25px 0 15px;
+            border-bottom: 2px solid #f0f0f0;
+            padding-bottom: 8px;
+        }
+        
+        p {
+            margin-bottom: 15px;
+        }
+        
+        ul {
+            margin-left: 20px;
+            margin-bottom: 15px;
+        }
+        
+        li {
+            margin-bottom: 8px;
+        }
+        
+        .highlight {
+            background-color: #f8f9fa;
+            border-left: 4px solid #4a00e0;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 0 8px 8px 0;
+        }
+        
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #f8f9fa;
+            color: #666;
+            font-size: 0.9rem;
+        }
+        
+        .contact {
+            margin-top: 10px;
+            font-weight: bold;
+        }
+        
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 2rem;
+            }
+            
+            .content {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Privacy Policy</h1>
+            <div class="logo">76 Games - https://76-games.bitbucket.io/</div>
+        </header>
+        
+        <div class="content">
+            <h2>Information We Collect</h2>
+            <p>At 76 Games, we value your privacy. Our website primarily hosts browser-based games that may collect limited technical information to enhance your gaming experience. This may include:</p>
+            <ul>
+                <li>Browser type and version for compatibility purposes</li>
+                <li>Game progress and high scores (stored locally on your device)</li>
+                <li>Anonymous usage statistics to improve game performance</li>
+            </ul>
+            
+            <div class="highlight">
+                <p>We do not collect personally identifiable information unless explicitly provided by you (such as through a contact form).</p>
+            </div>
+            
+            <h2>How We Use Your Information</h2>
+            <p>Any information collected is used solely to:</p>
+            <ul>
+                <li>Provide and maintain our gaming services</li>
+                <li>Improve game performance and user experience</li>
+                <li>Ensure proper functionality across different devices</li>
+            </ul>
+            
+            <h2>Third-Party Services</h2>
+            <p>Our games may be hosted on Bitbucket.io, which has its own privacy policies. We do not share your information with third-party advertisers or analytics services without your consent.</p>
+            
+            <h2>Your Rights</h2>
+            <p>You have the right to:</p>
+            <ul>
+                <li>Know what information is being collected</li>
+                <li>Request deletion of any stored data</li>
+                <li>Opt out of non-essential data collection</li>
+            </ul>
+            
+            <h2>Policy Updates</h2>
+            <p>This privacy policy may be updated periodically. Continued use of our website constitutes acceptance of any changes.</p>
+        </div>
+        
+        <footer>
+            <p>Last updated: <span id="currentDate"></span></p>
+            <p class="contact">For privacy-related inquiries, please contact us through our website.</p>
+        </footer>
+    </div>
+
+    <script>
+        // Set current date in footer
+        document.getElementById('currentDate').textContent = new Date().toLocaleDateString();
+    </script>
+</body>
+</html>
